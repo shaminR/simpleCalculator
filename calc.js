@@ -2,6 +2,13 @@ function calculate(){
     var num1 = document.getElementById("amount").value;
     var num2 = document.getElementById("amount2").value;
     var choice = document.getElementById("operation").value;
+    if(choice < 2 || choice > 5){
+        alert("Please choose an operation")
+    }
+    if(isNaN(num1) == true || isNaN(num2) == true){
+        alert("Please enter valid numbers")
+    }
+    
     var yuh = 0;
 
     if(choice == 5){
