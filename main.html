@@ -1,0 +1,50 @@
+<head>
+    <meta charset='utf-8'/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<div id = "title">
+        Simple Calculator
+        <div id = "Calculator">
+            <p>
+                Enter first number:
+            </p>
+            <input id = "amount" type = "text" placeholder="Enter Value">
+            
+            <p>
+                Enter second number: 
+            </p>
+            <input id = "amount2" type = "text" placeholder="Enter second value">
+            
+            <p>
+                Enter operation: 
+            </p>
+            <select id = "operation">
+                <option disabled selected value = "0">
+                    **Please choose an operation**
+                </option>
+                <option value = "5">
+                    Add
+                </option>
+                <option value = "2">
+                    Subtract
+                </option>
+                <option value = "3">
+                    Multiply
+                </option>
+                <option value = "4">
+                    Divide
+                </option>
+            </select>
+
+            <button type = "button" id = "calculate">
+                Calculate!
+            </button>
+        </div>
+        <div id = "answer">
+            <div id = "result">
+                0.000
+            </div>
+        </div>
+</div>
+
+<script type = "text/javascript" src = "calc.js"></script>

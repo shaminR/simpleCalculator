@@ -1,0 +1,103 @@
+body {
+    font-family: Arial;
+    background-image: linear-gradient(lightblue, lightgray);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#title {
+    background-color: white;
+    font-size: 12px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+p {
+    padding-left: 10px;
+}
+
+form input[type = "text"] {
+    width: 100px;
+}
+
+input {
+    padding-left: 20px;
+}
+
+#amount {
+    font-size: 12px;
+    background-color: white;
+    width: 80%;
+    padding: 5px;
+    margin-left: 20px;
+}
+
+#amount:focus {
+    background: white;
+    border: 3px solid lightblue;
+}
+
+#amount2 {
+    width: 80%;
+    padding: 5px;
+    font-size: 12px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+#amount2:focus {
+    background: white;
+    border: 3px solid lightblue;
+}
+
+#operation {
+    padding: 5px;
+    font-size: 12px;
+    background-color: white;
+    margin-left: 20px;
+    width: 80%;
+}
+
+button {
+    text-transform: uppercase;
+    font-weight: bold;
+    display: block;
+    margin: 30px auto;
+    background: green;
+    border-radius: 8px;
+    width: 200px;
+    height: 50px;
+    font-size: 15px;
+    color: white;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+button:active {
+    background-color: red;
+}
+
+#answer {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#answer:before {
+    content: "The answer is: ";
+    font-size: 20px;
+    display: block;
+    text-transform: uppercase;
+}
+
